@@ -16,7 +16,7 @@ def normalize_title(title: str) -> str:
     """Normalize a song title for comparisons."""
     if not isinstance(title, str):
         return ""
-    return title.strip()
+    return title.strip().lower()
 
 
 def normalize_artist(artist: str) -> str:
