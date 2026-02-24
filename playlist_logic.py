@@ -166,9 +166,19 @@ def search_songs(
     q = query.lower().strip()
     filtered: List[Song] = []
 
+    """
+    First bug, if value exists we apply the flitering, if not then all the songs would show,
+    Current code (buggy):
+    if value and value in q:
+
+    Fixed code:
+    if value and q in value:
+
+    check if the filder condition is in the value not the other way around
+    """
     for song in songs:
         value = str(song.get(field, "")).lower()
-        if value and value in q:
+        if value and q in value: 
             filtered.append(song)
 
     return filtered
