@@ -1,3 +1,15 @@
+# TF Notes
+The summary should be 5–7 sentences covering:
+The core concept students needed to understand
+Where students are most likely to struggle
+Where AI was helpful vs misleading
+One way they would guide a student without giving the answer
+
+Students need to understand how to use AI and become comfortable with basic prompting skills and user experience skills. A lot of this work is them being organized and going through the codebase and UI 
+to map out what the requirements are and what the proper flow should be. Some key notes will be understanding technical requirements, logic, and basic software development practices such as git and github. Students will
+most likely struggle understanding how to guardrail AI to be helpful and not complete the tasks for them. My main recommendation would be to ask the AI not give you the answer or ask a very specific question, so it only 
+returns your intended answer.
+
 # Playlist Chaos
 
 Your AI assistant tried to build a smart playlist generator. The app runs, but some of the behavior is unpredictable. Your task is to explore the app, investigate the code, and use an AI assistant to debug and improve it.
